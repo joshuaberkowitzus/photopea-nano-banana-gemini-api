@@ -1,4 +1,4 @@
-LOCAL_STORAGE_API_KEY = 'astriaApiKey'
+LOCAL_STORAGE_API_KEY = 'geminiApiKey'
 function initializeAuth() {
   let apiKey = localStorage.getItem(LOCAL_STORAGE_API_KEY);
   document.getElementById('auth').classList.toggle('hidden', !!apiKey);
