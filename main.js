@@ -106,7 +106,8 @@ document.getElementById('prompt-form').addEventListener('submit', async (event) 
     })
     await pasteBackResponseImage(serverPrompt, bounds, prompt_text)
   } catch (e) {
-    if(e.message === 'Request failed with status code 401') {
+    // Handle authentication errors (401 or 403)
+    if(e.message && (e.message.includes('401') || e.message.includes('403') || e.message.includes('API key'))) {
       signout()
     }
     console.error(e);
