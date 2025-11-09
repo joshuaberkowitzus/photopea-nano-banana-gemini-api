@@ -1,14 +1,13 @@
 {
   "files": [
-    "https://mp.astria.ai/tzpai1h8cvjmgyd1o4ox79h7rthz"
   ],
   "environment": {
     "plugins": [
       {
         "name": "Nano-Banana for Photopea",
         "description": "Selection-based AI image generation (Nano-Banana)",
-        "url": "https://astriaai.github.io/photopea-nano-banana/",
-        "icon": "https://astriaai.github.io/photopea-nano-banana/icon.jpeg"
+        "url": "https://joshuaberkowitzus.github.io/photopea-nano-banana-gemini-api/",
+        "icon": "https://joshuaberkowitzus.github.io/photopea-nano-banana-gemini-api/icon.jpeg"
       }
     ]
   }
